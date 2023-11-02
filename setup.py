@@ -1,7 +1,7 @@
 from setuptools import setup
 
 APP = ["src/SoundFixer/app.py"]
-DATA_FILES = ["icon.png"]
+DATA_FILES = ["icon-on.png", "icon-off.png"]
 OPTIONS = {
     "argv_emulation": True,
     "iconfile": "icon.icns",
